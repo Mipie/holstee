@@ -1,0 +1,104 @@
+/* Color scheme: #B30531 Dark Pink
+                 #FF809F Light Pink
+                 #FF0F4C Hot Pink
+                 #008011 Dark Green
+                 #00B319 Green
+                 #33FF52 Light Green
+                 #000000 Black
+
+Fonts: font-family: 'Raleway', sans-serif;
+       font-family: 'Pacifico', cursive;
+       font-family: 'Delius Unicase', cursive;
+       font-family: 'Delius Swash Caps', cursive;
+       font-family: 'Rochester', cursive;
+       font-family: 'Abril Fatface', cursive;
+       font-family: 'Sacramento', cursive;
+       font-family: 'Poiret One', cursive;
+       font-family: 'Righteous', cursive;
+       font-family: 'Amatic SC', cursive;
+       font-family: 'Monoton', cursive;
+       font-family: 'Yellowtail', cursive;
+*/
+
+#border {
+    border: dotted black 10px;
+    overflow: auto;
+    width: 680px;
+    margin: 20px;
+  }
+  
+  .box {
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    
+  }
+  
+  .row1-left, .row2-left, .row4-right, .row5-right {
+    background: #FF0F4C;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+  }
+  
+  span.hot-pink {
+  font-family: 'Pacifico', cursive;  
+  font-size: 40px;
+  }
+  
+  .row1-right, .row5-left {
+    background: #B30531;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+  }
+  
+  span.dark-pink {
+    font-family: 'Sacramento', cursive;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  
+  .row2-right, .row6-left {
+    background: #FF809F;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 30px;
+  }
+  
+  span.light-pink {
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  
+  .row3-left, .row7-left {
+    background: #008011;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  
+  span.dark-green {
+    font-family: 'Rochester', cursive;
+    font-weight: bolder;
+    font-size: 45px;
+  }
+  
+  .row3-right, .row7-right {
+    background: #00B319;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+  }
+  
+  span.green {
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+  }
+  
+  .row4-left, .row6-right {
+    background: #33FF52;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+  }
+  
+  span.light-green {
+    font-family: 'Monoton', cursive;
+  }
